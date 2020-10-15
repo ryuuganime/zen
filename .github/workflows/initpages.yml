@@ -9,6 +9,9 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Initialize Recursively ⚙
+        uses: snickerbockers/submodules-init@v4
+
       - name: Install Dependencies 🔧
         run: |
           npm install
@@ -17,6 +20,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master # The branch the action should deploy to.
+          BRANCH: gh-page # The branch the action should deploy to.
           FOLDER: . # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
