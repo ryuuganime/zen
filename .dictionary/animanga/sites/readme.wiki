@@ -1,0 +1,11 @@
+= Sites Wordlist =
+
+{|
+! Sites
+! Link
+! Word Count
+|-
+|Ryuuganime
+|[https://ryuuganime.my.id Link]
+| style="text-align:center;" | [[ryuuganime-062020.txt|'''253''']]
+|}

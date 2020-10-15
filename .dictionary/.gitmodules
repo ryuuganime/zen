@@ -1,0 +1,12 @@
+[submodule "ja"]
+	path = ja
+	url = https://github.com/hingston/japanese
+[submodule "ar"]
+	path = ar
+	url = https://github.com/a3f/arabic-wordlists
+[submodule "vn"]
+	path = vn
+	url = https://github.com/duyet/vietnamese-wordlist
+[submodule "animanga"]
+	path = animanga
+	url = https://github.com/ryuuganime/animanga-wordlist
