@@ -1,0 +1,39 @@
+{
+    "recommendations": [
+        //Development
+        "humao.rest-client",
+        "cschleiden.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "editorconfig.editorconfig",
+        //Accessability
+        "coenraads.bracket-pair-colorizer-2",
+        "natqe.reload",
+        "esbenp.prettier-vscode",
+        //Other file formats support
+        "rowewilsonfrederiskholme.wikitext",
+        "foxundermoon.shell-format",
+        "mikestead.dotenv",
+        //Snippet
+        "keno.uikit-3-snippets",
+        //HTML
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "compulim.compulim-vscode-closetag",
+        "ecmel.vscode-html-css",
+        "naumovs.color-highlight",
+        "pranaygp.vscode-css-peek",
+        "ms-vscode.hexeditor",
+        //Language
+        "antfu.i18n-ally",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-russian",
+        "streetsidesoftware.code-spell-checker-spanish",
+        "streetsidesoftware.code-spell-checker-french",
+        "streetsidesoftware.code-spell-checker-portuguese",
+        "streetsidesoftware.code-spell-checker-portuguese-brazilian"
+    ],
+    "unwantedRecommendations": [
+        "jakeboone02.mediawiki",
+        "jasew.mediawiki"
+    ]
+}

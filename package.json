@@ -1,0 +1,39 @@
+{
+    "name": "ryuuganime-zen",
+    "author": "Ryuuganime",
+    "description": "Ryuuganime next website UI/UX",
+    "homepage": "https://ryuuganime.github.io/zen",
+    "license": "BSL-1.0",
+    "private": true,
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ryuuganime/zen.git"
+    },
+    "browserslist": {
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ],
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/ryuuganime/zen/issues"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
+        "uikit": "^3.5.8"
+    },
+    "devDependencies": {
+        "gh-pages": "^3.1.0"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    }
+}
